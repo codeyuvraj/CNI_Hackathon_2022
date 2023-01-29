@@ -5,10 +5,10 @@ Conquer more number of cells than your opponent bot.
 ### Rules.  
 1. If a cell is unoccupied then it is conquered by the bot who reaches there first.  
 2. If a bot conquers and makes a complete rectangle(maximum 6*6), and no cell inside being conquered by the opponent bot, then all the cells inside      will also get conquered.  
-3. Representation. 
-        1. B[i][j] = 0 means the cell is unconquered
-        2. B[i][j] = 1 means the cell is conquered by Player 1
-        3. B[i][j] = 2 means the cell is conquered by Player 2
+3. Representation.  
+        1. B[i][j] = 0 means the cell is unconquered.  
+        2. B[i][j] = 1 means the cell is conquered by Player 1.  
+        3. B[i][j] = 2 means the cell is conquered by Player 2.  
     
     ```
     def move(self,B,N,cur_x,cur_y):
