@@ -1,4 +1,4 @@
-# CNI_Hackathon_2022
+# CNI_Hackathon_2022 ( * Player1.py is the winning solution submitted by me )
 
 ## Task
 Conquer more number of cells than your opponent bot.  
